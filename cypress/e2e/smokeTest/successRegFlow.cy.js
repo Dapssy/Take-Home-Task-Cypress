@@ -9,7 +9,9 @@ describe('https://test.cv.ee/et Successful Regestration flow ', () => {
   beforeEach(() => {
    })
 
-   it('Registration flow with vaild Credentials', () => {
+   it('Successful Registration', () => {
+    //Test a successful registration 
+    //assert that there is a successful registration message displayed
 
     cy.visit('https://test.cv.ee/et')
     Stest.clickLoginBTN('LoginBTN')
