@@ -117,6 +117,7 @@ describe('https://test.cv.ee/et Validation Failure Test scenarios ', () => {
         cy.get(':nth-child(3) > .input-text__field').type(faker.internet.email());
         Stest.passwordField('passwordFieldBTN')
         Stest.firstNameField('FirstNamelBTN')
+        Stest.lastNameField('lastNameField')
         Stest.newslettersField('newslettersField')
         Stest.InfoSentEmployerField('nfoSentEmployerField')
         Stest.registerBTN('CreateAccountEmailBTN')
@@ -134,13 +135,14 @@ describe('https://test.cv.ee/et Validation Failure Test scenarios ', () => {
         cy.get(':nth-child(3) > .input-text__field').type(faker.internet.email());
         Stest.passwordField('passwordFieldBTN')
         Stest.firstNameField('FirstNamelBTN')
+        Stest.lastNameField('lastNameField')
         Stest.newslettersField('newslettersField')
         Stest.IagreeField('agreeField')
         Stest.registerBTN('CreateAccountEmailBTN')
         cy.get('.email-registration-form__title > span').should('have.text', 'Loo konto')
     })
 
-    it('Unticked required checkbox 2 and 3 ', () => {
+    it('Unticked required checkbox 2 and 3 ', () => {  
 
         //Test a registration when checkbox 2 and 3 are not selected
         //assert that the "Registreeri" button transition is diabled.
@@ -151,6 +153,7 @@ describe('https://test.cv.ee/et Validation Failure Test scenarios ', () => {
         cy.get(':nth-child(3) > .input-text__field').type(faker.internet.email());
         Stest.passwordField('passwordFieldBTN')
         Stest.firstNameField('FirstNamelBTN')
+        Stest.lastNameField('lastNameField')
         Stest.newslettersField('newslettersField')
         Stest.registerBTN('CreateAccountEmailBTN')
         cy.get('.email-registration-form__title > span').should('have.text', 'Loo konto')
