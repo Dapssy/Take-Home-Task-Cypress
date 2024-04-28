@@ -57,9 +57,9 @@ The end-to-end tests cover the following scenarios:
 5. Empty Names: Checks that leaving both first and last names empty results in validation errors.
 6. Empty First Name: Validates that leaving the first name field empty results in a validation error.
 7. Empty Last Name: Ensures that leaving the last name field empty results in a validation error.
-8. Unticked Required Checkbox 1: Verifies that leaving the first required checkbox unticked results in a validation error.
-9. Unticked Required Checkbox 2: Checks that leaving the second required checkbox unticked results in a validation error.
-10. Unticked Required Checkbox 1 and 2: Ensures that leaving both required checkboxes unticked results in validation errors.
+8. Unticked Required Checkbox 2: Verifies that leaving the second required checkbox unticked results in a validation error.
+9. Unticked Required Checkbox 3: Checks that leaving the thrid required checkbox unticked results in a validation error.
+10. Unticked Required Checkboxes 2 and 3: Ensures that leaving both required checkboxes unticked results in validation errors.
 
 
 ## Conclusion:
