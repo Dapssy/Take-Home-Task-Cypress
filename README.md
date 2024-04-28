@@ -5,7 +5,7 @@
 This documentation provides a guide for setting up and running end-to-end tests using Cypress in Visual Studio Code. The tests cover various scenarios of a registration form, including successful registration and validation failures for different inputs.
 
 
-# #Setting up the Cypress Project in Visual Studio Code:
+## Setting up the Cypress Project in Visual Studio Code:
 1. Install Visual Studio Code: If you haven't already, download and install Visual Studio Code from the official website.
 
 2. Install Node.js and npm: Cypress requires Node.js and npm to be installed on your system. Download and install Node.js from the official website, which includes npm.
